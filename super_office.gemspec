@@ -31,7 +31,15 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
+  spec.add_development_dependency 'activerecord'
   spec.add_development_dependency "bundler", "~> 1.16"
+  spec.add_development_dependency "generator_spec", "~> 0.9.3"
+  spec.add_development_dependency 'pry'
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec", "~> 3.0"
+  spec.add_development_dependency 'vcr'
+  spec.add_runtime_dependency 'jwt'
+  spec.add_runtime_dependency 'oj', '~> 3.6.2'
+  spec.add_runtime_dependency 'rbnacl-libsodium'
+  spec.add_runtime_dependency 'typhoeus', '~> 1.3'
 end
