@@ -1,0 +1,61 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://sod.superoffice.com/login/common/oauth/tokens
+    body:
+      encoding: US-ASCII
+      string: grant_type=refresh_token&client_id=client_id&client_secret=client_secret&redirect_uri=test_redirect_uri&scope=openid&refresh_token=refresh_token
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Expect:
+      - ''
+  response:
+    status:
+      code: 400
+      message: Bad Request
+    headers:
+      Cache-Control:
+      - no-cache, no-store
+      Pragma:
+      - no-cache
+      Content-Type:
+      - application/json; charset=utf-8
+      Expires:
+      - "-1"
+      Server:
+      - Microsoft-IIS/8.5
+      Set-Cookie:
+      - SOOnline=vabuanhotam51ok1np0bz5le; path=/; HttpOnly
+      - ARRAffinity=ad25b89c23fa597dd018964842952da70ab6b93354a0d7ba3644542c53960360;Path=/;Domain=sod.superoffice.com
+      X-AspNetMvc-Version:
+      - '5.2'
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET
+      X-AspNet-Version:
+      - 4.0.30319
+      Request-Context:
+      - appId=cid-v1:35ca7189-49cd-4215-8f04-8f6a35a5126e
+      X-Powered-By:
+      - ASP.NET
+      - ARR/3.0
+      - ASP.NET
+      X-Robots-Tag:
+      - no-index,no-follow
+      Date:
+      - Wed, 04 Jul 2018 12:07:19 GMT
+      Content-Length:
+      - '27'
+    body:
+      encoding: UTF-8
+      string: '{ "error": "access_denied"}'
+    http_version: '1.1'
+    adapter_metadata:
+      effective_url: https://sod.superoffice.com/login/common/oauth/tokens
+  recorded_at: Wed, 04 Jul 2018 12:07:19 GMT
+recorded_with: VCR 4.0.0
