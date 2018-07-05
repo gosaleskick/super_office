@@ -30,8 +30,8 @@ RSpec.describe SuperOffice::Generators::SuperOfficeTokenGenerator, type: :genera
       class CreateSuperOfficeTokens < ActiveRecord::Migration[5.2]
         def change
           create_table :super_office_tokens do |t|
-            t.bytea :encrypted_access_token
-            t.bytea :encrypted_refresh_token
+            t.binary :encrypted_access_token
+            t.binary :encrypted_refresh_token
             t.datetime :expires_at
             t.string :api_endpoint, null: false
 
