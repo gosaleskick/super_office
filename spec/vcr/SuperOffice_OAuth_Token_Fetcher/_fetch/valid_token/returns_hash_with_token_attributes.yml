@@ -5,7 +5,7 @@ http_interactions:
     uri: https://sod.superoffice.com/login/common/oauth/tokens
     body:
       encoding: US-ASCII
-      string: grant_type=authorization_code&client_id=client_id&client_secret=client_secret&redirect_uri=test_redirect_uri&scope=openid&code=code
+      string: grant_type=authorization_code&client_id=client_id&client_secret=client_secret&redirect_uri=test_redirect_uri&code=code
     headers:
       User-Agent:
       - Typhoeus - https://github.com/typhoeus/typhoeus
