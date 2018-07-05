@@ -40,8 +40,7 @@ module SuperOffice
               grant_type: grant_type,
               client_id: SuperOffice.configuration.client_id,
               client_secret: SuperOffice.configuration.client_secret,
-              redirect_uri: SuperOffice.configuration.redirect_uri,
-              scope: :openid
+              redirect_uri: SuperOffice.configuration.redirect_uri
             }.merge!(params),
             headers: {
               'Content-Type' => 'application/x-www-form-urlencoded'
