@@ -19,7 +19,7 @@ module SuperOffice
         end
 
         def refresh
-          raise RefreshError, response_body[:message] if response_body.fetch(:error, false)
+          raise RefreshError, response_body[:error] if response_body.fetch(:error, false)
 
           token.update(token_attributes)
           token

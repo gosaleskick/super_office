@@ -11,7 +11,7 @@ describe SuperOffice::OAuth::Token::Fetcher do
 
       it 'raises an error', :vcr do
         expect { instance.fetch }
-          .to raise_error SuperOffice::OAuth::Token::Fetcher::FetchTokenError
+          .to raise_error SuperOffice::OAuth::Token::Fetcher::FetchTokenError, "Invalid client_id/client_secret/authorization_code"
       end
     end
 

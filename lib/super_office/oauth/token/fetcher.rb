@@ -11,7 +11,7 @@ module SuperOffice
         end
 
         def fetch
-          raise FetchTokenError, response_body[:message] if response_body.fetch(:error, false)
+          raise FetchTokenError, response_body[:error_description] if response_body.fetch(:error, false)
 
           token_attributes
         end
