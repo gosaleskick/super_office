@@ -3,8 +3,8 @@
 require "super_office/version"
 require 'typhoeus'
 require 'oj'
-require 'jwt'
 require 'rbnacl/libsodium'
+require 'jwt'
 
 require 'super_office/configuration'
 require 'super_office/encryptor'
