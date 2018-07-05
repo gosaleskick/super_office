@@ -19,7 +19,8 @@ describe SuperOffice::OAuth::Token::Refresher do
 
     context 'unsuccessful refresh' do
       it 'raises an error', :vcr do
-        expect { described_class.new(token).refresh }.to raise_error SuperOffice::OAuth::Token::Refresher::RefreshError
+        expect { described_class.new(token).refresh }
+          .to raise_error SuperOffice::OAuth::Token::Refresher::RefreshError, 'access_denied'
       end
     end
   end
