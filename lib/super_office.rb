@@ -8,6 +8,9 @@ require 'rbnacl/libsodium'
 
 require 'super_office/configuration'
 require 'super_office/encryptor'
+require 'super_office/oauth/token/base'
+require 'super_office/oauth/token/fetcher'
+require 'super_office/oauth/token/refresher'
 
 module SuperOffice
   class << self
