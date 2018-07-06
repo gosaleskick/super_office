@@ -12,7 +12,7 @@ class TokenAR
     @encrypted_access_token = encrypted_access_token || ENCRYPTED_ACCESS_TOKEN
     @encrypted_refresh_token = encrypted_refresh_token || ENCRYPTED_REFRESH_TOKEN
     @expires_at = expires_at || Date.parse('2050-01-01').to_time
-    @api_endpoint = api_endpoint || 'saleskick'
+    @api_endpoint = api_endpoint || 'https://sod.superoffice.com/Cust25708/api/'
   end
 
   def update(encrypted_access_token:, encrypted_refresh_token:, expires_at:, api_endpoint:)
