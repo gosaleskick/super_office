@@ -1,0 +1,53 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://sod.superoffice.com/Cust25708/api/v1/List/Task/MDOItems
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+      Accept:
+      - application/json
+      Authorization:
+      - Bearer access_token
+      Expect:
+      - ''
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '2658'
+      Content-Type:
+      - application/json; charset=utf-8
+      Expires:
+      - "-1"
+      Server:
+      - Microsoft-IIS/8.5
+      X-Powered-By:
+      - NetServer/8.3.6757.953
+      - ASP.NET
+      - ARR/3.0
+      - ASP.NET
+      X-AspNet-Version:
+      - 4.0.30319
+      Date:
+      - Mon, 09 Jul 2018 12:22:23 GMT
+    body:
+      encoding: UTF-8
+      string: '[{"TableRight":null,"FieldProperties":{},"Id":1,"Name":"Meeting (Internal)","ToolTip":"Meeting
+        (Internal)","Deleted":false,"Rank":1,"Type":"task","ChildItems":[],"IconHint":"task","ColorBlock":0,"ExtraInfo":"","StyleHint":"","FullName":""},{"TableRight":null,"FieldProperties":{},"Id":2,"Name":"Meeting
+        (External)","ToolTip":"Meeting (External)","Deleted":false,"Rank":2,"Type":"task","ChildItems":[],"IconHint":"task","ColorBlock":0,"ExtraInfo":"","StyleHint":"","FullName":""},{"TableRight":null,"FieldProperties":{},"Id":3,"Name":"Phone-Out","ToolTip":"Phone-Out","Deleted":false,"Rank":3,"Type":"task","ChildItems":[],"IconHint":"task","ColorBlock":0,"ExtraInfo":"","StyleHint":"","FullName":""},{"TableRight":null,"FieldProperties":{},"Id":4,"Name":"Phone-In","ToolTip":"Phone-In","Deleted":false,"Rank":4,"Type":"task","ChildItems":[],"IconHint":"task","ColorBlock":0,"ExtraInfo":"","StyleHint":"","FullName":""},{"TableRight":null,"FieldProperties":{},"Id":5,"Name":"Follow-up","ToolTip":"Follow-up","Deleted":false,"Rank":5,"Type":"task","ChildItems":[],"IconHint":"task","ColorBlock":0,"ExtraInfo":"","StyleHint":"","FullName":""},{"TableRight":null,"FieldProperties":{},"Id":6,"Name":"Planning","ToolTip":"Planning","Deleted":false,"Rank":7,"Type":"task","ChildItems":[],"IconHint":"task","ColorBlock":0,"ExtraInfo":"","StyleHint":"","FullName":""},{"TableRight":null,"FieldProperties":{},"Id":7,"Name":"Visit","ToolTip":"Visit","Deleted":false,"Rank":8,"Type":"task","ChildItems":[],"IconHint":"task","ColorBlock":0,"ExtraInfo":"","StyleHint":"","FullName":""},{"TableRight":null,"FieldProperties":{},"Id":8,"Name":"Lunch","ToolTip":"Lunch","Deleted":false,"Rank":9,"Type":"task","ChildItems":[],"IconHint":"task","ColorBlock":0,"ExtraInfo":"","StyleHint":"","FullName":""},{"TableRight":null,"FieldProperties":{},"Id":9,"Name":"Proposal","ToolTip":"Proposal","Deleted":false,"Rank":10,"Type":"task","ChildItems":[],"IconHint":"task","ColorBlock":0,"ExtraInfo":"","StyleHint":"","FullName":""},{"TableRight":null,"FieldProperties":{},"Id":10,"Name":"Service","ToolTip":"Service","Deleted":false,"Rank":11,"Type":"task","ChildItems":[],"IconHint":"task","ColorBlock":0,"ExtraInfo":"","StyleHint":"","FullName":""},{"TableRight":null,"FieldProperties":{},"Id":11,"Name":"Private","ToolTip":"Private","Deleted":false,"Rank":12,"Type":"task","ChildItems":[],"IconHint":"task","ColorBlock":0,"ExtraInfo":"","StyleHint":"","FullName":""},{"TableRight":null,"FieldProperties":{},"Id":12,"Name":"Other","ToolTip":"Other","Deleted":false,"Rank":13,"Type":"task","ChildItems":[],"IconHint":"task","ColorBlock":0,"ExtraInfo":"","StyleHint":"","FullName":""}]'
+    http_version: '1.1'
+    adapter_metadata:
+      effective_url: https://sod.superoffice.com/Cust25708/api/v1/List/Task/MDOItems
+  recorded_at: Mon, 09 Jul 2018 12:22:24 GMT
+recorded_with: VCR 4.0.0
