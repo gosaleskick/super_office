@@ -1,5 +1,5 @@
 # frozen_string_literal: true
-require 'pry'
+
 require 'spec_helper'
 
 describe SuperOffice::Endpoints::Archive::InternalUsers do
