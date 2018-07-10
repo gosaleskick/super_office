@@ -1,0 +1,71 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://sod.superoffice.com/Cust25708/api/v1/Archive/Person
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+      Accept:
+      - application/json
+      Authorization:
+      - Bearer access_token
+      Expect:
+      - ''
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '21909'
+      Content-Type:
+      - application/json; charset=utf-8
+      Expires:
+      - "-1"
+      Server:
+      - Microsoft-IIS/8.5
+      DataServiceVersion:
+      - '3.0'
+      X-Powered-By:
+      - NetServer/8.3.6757.953
+      - ASP.NET
+      - ARR/3.0
+      - ASP.NET
+      X-AspNet-Version:
+      - 4.0.30319
+      Date:
+      - Mon, 09 Jul 2018 17:29:30 GMT
+    body:
+      encoding: UTF-8
+      string: '{"odata.metadata":"https://sod.superoffice.com:443/Cust25708/api/v1/Archive//$metadata","value":[{"PrimaryKey":"5","EntityName":"person","personInterestIds":"","hasStoreConsent":true,"hasEmarketingConsent":false,"isMailingRecipient":true,"subscription":"","legalBaseStore":"NO:\"Berettiget
+        interesse\";IT:\"Interesse legittimo\";PL:\"Prawnie uzasadnione interesy\";JP:\"正当な利益\";CN:\"合法权益\";FR:\"Intérêt
+        légitime\";CZ:\"Oprávněný zájem\";SP:\"Interés legítimo\";SW:\"Legitimt intresse\";NL:\"Rechtmatig
+        belang\";DA:\"Legitim interesse\";FI:\"Oikeutettu etu\";GE:\"Berechtigte Interessen\";US:\"Legitimate
+        interest\";RU:\"Законный интерес\"","legalBaseEmarketing":"","consentSourceStore":"NO:\"Ukjent\";IT:\"Sconosciuto\";PL:\"Nieznane\";JP:\"不明\";CN:\"未知\";FR:\"Inconnu\";CZ:\"Neznámé\";SP:\"Desconocido\";SW:\"Okänt\";NL:\"Onbekend\";DA:\"Ukendt\";FI:\"Tuntematon\";GE:\"Unbekannt\";US:\"Unknown\";RU:\"Неизвестно\"","consentSourceEmarketing":"","personId":5,"firstName":"Adam","middleName":"","lastName":"MissingLastname","contactId":2,"personDeletedDate":"0001-01-01T00:00:00","mrMrs":"","personNumber":"10011","title":"","useAsMailingAddress":false,"position":"","personCountry":"United
+        Kingdom","rank":1,"retired":false,"birthYear":0,"birthMonth":0,"birthDay":0,"kanaFirstName":"","kanaLastName":"","supportAssociate":"","supportLanguage":"","ticketPriority":"","personAssociateId":"","personCategory":"Supplier","personBusiness":"Industry","personSource":"Sales
+        & Marketing","portraitThumbnail":"","personActiveErpLinks":false,"hasCompany":true,"personRegisteredBy":"sysCust25708","personRegisteredDate":"2018-07-02T14:09:52","fullName":"Adam
+        MissingLastname","fullNameWithContact":"Adam MissingLastname (Saleskick AB)","hasInfoText":false,"hasInterests":false,"birthdate":"0001-01-01T00:00:00","personNoMail":true,"associateType":"Associate_Current","personUpdatedBy":"AM","personUpdatedDate":"2018-07-06T08:20:53"},{"PrimaryKey":"6","EntityName":"person","personInterestIds":"","hasStoreConsent":true,"hasEmarketingConsent":false,"isMailingRecipient":true,"subscription":"","legalBaseStore":"NO:\"Berettiget
+        interesse\";IT:\"Interesse legittimo\";PL:\"Prawnie uzasadnione interesy\";JP:\"正当な利益\";CN:\"合法权益\";FR:\"Intérêt
+        légitime\";CZ:\"Oprávněný zájem\";SP:\"Interés legítimo\";SW:\"Legitimt intresse\";NL:\"Rechtmatig
+        belang\";DA:\"Legitim interesse\";FI:\"Oikeutettu etu\";GE:\"Berechtigte Interessen\";US:\"Legitimate
+        interest\";RU:\"Законный интерес\"","legalBaseEmarketing":"","consentSourceStore":"NO:\"Registrert
+        av bruker\";IT:\"Creato dall''utente\";PL:\"Utworzony przez użytkownika\";JP:\"ﾕｰｻﾞｰによる作成\";CN:\"由用户创建\";FR:\"Créé
+        par l''utilisateur\";CZ:\"Vytvořeno uživatelem\";SP:\"Creado por el usuario\";SW:\"Skapad
+        av användare\";NL:\"Gemaakt door gebruiker\";DA:\"Oprettet af bruger\";FI:\"Käyttäjän
+        luoma\";GE:\"Erstellt von Benutzer\";US:\"Created by user\";RU:\"Создано пользователем\"","consentSourceEmarketing":"","personId":6,"firstName":"Chris","middleName":"","lastName":"Rybka","contactId":2,"personDeletedDate":"0001-01-01T00:00:00","mrMrs":"Mr.","personNumber":"10012","title":"","useAsMailingAddress":false,"position":"","personCountry":"United
+        Kingdom","rank":2,"retired":false,"birthYear":0,"birthMonth":0,"birthDay":0,"kanaFirstName":"","kanaLastName":"","supportAssociate":"","supportLanguage":"","ticketPriority":"","personAssociateId":"","personCategory":"Supplier","personBusiness":"Industry","personSource":"Sales
+        & Marketing","portraitThumbnail":"","personActiveErpLinks":false,"hasCompany":true,"personRegisteredBy":"AM","personRegisteredDate":"2018-07-02T15:02:54","fullName":"Chris
+        Rybka","fullNameWithContact":"Chris Rybka (Saleskick AB)","hasInfoText":false,"hasInterests":false,"birthdate":"0001-01-01T00:00:00","personNoMail":true,"associateType":"Associate","personUpdatedBy":"CR","personUpdatedDate":"2018-07-09T12:34:25"}]}'
+    http_version: '1.1'
+    adapter_metadata:
+      effective_url: https://sod.superoffice.com/Cust25708/api/v1/Archive/Person
+  recorded_at: Mon, 09 Jul 2018 17:29:30 GMT
+recorded_with: VCR 4.0.0
