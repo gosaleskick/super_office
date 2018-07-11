@@ -1,0 +1,54 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://sod.superoffice.com/Cust25708/api/v1/Archive/Appointment
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+      Accept:
+      - application/json
+      Authorization:
+      - Bearer access_token
+      Expect:
+      - ''
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '12776'
+      Content-Type:
+      - application/json; charset=utf-8
+      Expires:
+      - "-1"
+      Server:
+      - Microsoft-IIS/8.5
+      DataServiceVersion:
+      - '3.0'
+      X-Powered-By:
+      - NetServer/8.3.6757.953
+      - ASP.NET
+      - ARR/3.0
+      - ASP.NET
+      X-AspNet-Version:
+      - 4.0.30319
+      Date:
+      - Wed, 11 Jul 2018 13:30:11 GMT
+    body:
+      encoding: UTF-8
+      string: '{"odata.metadata":"https://sod.superoffice.com:443/Cust25708/api/v1/Archive//$metadata","value":[{"PrimaryKey":"3","EntityName":"appointment","visibleFor":"[SR_VFC_ALL]","type":"(Proposal)","priority":"","date":"2015-11-04T13:00:00","endDate":"2015-11-04T00:00:00","associateId":"AM","appointmentId":3,"contactId":1,"personId":1,"projectId":0,"saleId":1,"userGroup":"Sales","recurrenceRuleId":0,"rawStatus":1,"rawType":1,"location":"","suggestedAppointmentId":4,"intention":"","isMilestone":false,"registeredBy":"AM","registeredDate":"2015-11-04T15:56:48","completed":false,"completedDate":"0001-01-01T00:00:00","icon":"Task","recordType":"Todo","time":"2015-11-04T13:00:00","endTime":"2015-11-04T14:00:00","text":"SOOO
+        STRONG DEAL!","alarm":false,"recurring":false,"booking":false,"visibleInDiary":false,"updatedBy":"AM","updatedDate":"2015-11-04T16:00:19","who":"","participating":true}]}'
+    http_version: '1.1'
+    adapter_metadata:
+      effective_url: https://sod.superoffice.com/Cust25708/api/v1/Archive/Appointment
+  recorded_at: Wed, 11 Jul 2018 13:30:11 GMT
+recorded_with: VCR 4.0.0
