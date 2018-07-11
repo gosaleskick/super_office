@@ -3,6 +3,7 @@
 module SuperOffice
   module OAuth
     class Client
+      include SuperOffice::Endpoints::Archive::Appointment
       include SuperOffice::Endpoints::Archive::InternalUsers
       include SuperOffice::Endpoints::Archive::Person
       include SuperOffice::Endpoints::List::Task
