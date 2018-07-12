@@ -1,0 +1,53 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://sod.superoffice.com/Cust25708/api/v1/Archive/Sale?%24select=date&%24filter=saleStatus%20oneOf%20%281%29
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+      Accept:
+      - application/json
+      Authorization:
+      - Bearer access_token
+      Expect:
+      - ''
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '370'
+      Content-Type:
+      - application/json; charset=utf-8
+      Expires:
+      - "-1"
+      Server:
+      - Microsoft-IIS/8.5
+      DataServiceVersion:
+      - '3.0'
+      X-Powered-By:
+      - NetServer/8.3.6757.953
+      - ASP.NET
+      - ARR/3.0
+      - ASP.NET
+      X-AspNet-Version:
+      - 4.0.30319
+      Date:
+      - Thu, 12 Jul 2018 10:40:53 GMT
+    body:
+      encoding: UTF-8
+      string: '{"odata.metadata":"https://sod.superoffice.com:443/Cust25708/api/v1/Archive//$metadata","value":[{"PrimaryKey":"3","EntityName":"sale","date":"2018-10-03T00:00:00"},{"PrimaryKey":"4","EntityName":"sale","date":"2018-10-03T00:00:00"},{"PrimaryKey":"6","EntityName":"sale","date":"2018-10-04T00:00:00"},{"PrimaryKey":"7","EntityName":"sale","date":"2018-10-04T00:00:00"}]}'
+    http_version: '1.1'
+    adapter_metadata:
+      effective_url: https://sod.superoffice.com/Cust25708/api/v1/Archive/Sale?%24select=date&%24filter=saleStatus%20oneOf%20%281%29
+  recorded_at: Thu, 12 Jul 2018 10:40:53 GMT
+recorded_with: VCR 4.0.0
