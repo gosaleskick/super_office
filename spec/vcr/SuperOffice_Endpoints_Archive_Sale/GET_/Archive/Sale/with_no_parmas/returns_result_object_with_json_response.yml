@@ -1,0 +1,57 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://sod.superoffice.com/Cust25708/api/v1/Archive/Sale
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Typhoeus - https://github.com/typhoeus/typhoeus
+      Accept:
+      - application/json
+      Authorization:
+      - Bearer access_token
+      Expect:
+      - ''
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache
+      Pragma:
+      - no-cache
+      Content-Length:
+      - '9866'
+      Content-Type:
+      - application/json; charset=utf-8
+      Expires:
+      - "-1"
+      Server:
+      - Microsoft-IIS/8.5
+      DataServiceVersion:
+      - '3.0'
+      X-Powered-By:
+      - NetServer/8.3.6757.953
+      - ASP.NET
+      - ARR/3.0
+      - ASP.NET
+      X-AspNet-Version:
+      - 4.0.30319
+      Date:
+      - Thu, 12 Jul 2018 10:29:47 GMT
+    body:
+      encoding: UTF-8
+      string: '{"odata.metadata":"https://sod.superoffice.com:443/Cust25708/api/v1/Archive//$metadata","value":[{"PrimaryKey":"1","EntityName":"sale","visibleFor":"[SR_VFC_ALL]","date":"2018-07-02T15:51:27","heading":"Example
+        sale","currency":"GBP","competitor":"","lossReason":"","source":"Campaign","credited":"","userGroup":"Sales","saleStatus":"[SR_SALE_SOLD]","amount":150.0,"earning":100.0,"earningPercent":100.0,"saleNumber":"10011","associateId":"AM","saleId":1,"contactId":1,"personId":1,"projectId":0,"currencyId":36,"nextDueDate":"2015-11-04T13:00:00","saleType":"Sale
+        to new customer","stalledComment":"","soldReason":"","activeErpLinks":false,"probPercent":"100","reopenDate":"0001-01-01T00:00:00","registeredBy":"","registeredDate":"0001-01-01T00:00:00","hasGuide":true,"hasStakeholders":true,"completed":true,"icon":"Sale_Sold","time":"2018-07-02T15:51:27","amountWeighted":150.0,"type":"[SR_SALE_SOLD]","stage":"[SR_SALE_SOLD]","originalStage":"","hasQuote":true,"text":"Example
+        sale","description":"This is just an example sale!","updatedBy":"AM","updatedDate":"2018-07-02T15:51:30","who":""},{"PrimaryKey":"2","EntityName":"sale","visibleFor":"[SR_VFC_ALL]","date":"2018-07-02T15:52:04","heading":"IBM","currency":"GBP","competitor":"","lossReason":"","source":"","credited":"","userGroup":"Sales","saleStatus":"[SR_SALE_LOST]","amount":80.0,"earning":80.0,"earningPercent":100.0,"saleNumber":"10012","associateId":"CR","saleId":2,"contactId":2,"personId":6,"projectId":0,"currencyId":36,"nextDueDate":"2018-07-02T15:52:04","saleType":"Sale
+        to new customer","stalledComment":"","soldReason":"","activeErpLinks":false,"probPercent":"0","reopenDate":"0001-01-01T00:00:00","registeredBy":"AM","registeredDate":"2018-07-02T15:49:52","hasGuide":true,"hasStakeholders":true,"completed":true,"icon":"Sale_Lost","time":"2018-07-02T15:52:04","amountWeighted":0.0,"type":"[SR_SALE_LOST]","stage":"[SR_SALE_LOST]","originalStage":"","hasQuote":true,"text":"IBM","description":"","updatedBy":"AM","updatedDate":"2018-07-02T15:52:05","who":""}]}'
+    http_version: '1.1'
+    adapter_metadata:
+      effective_url: https://sod.superoffice.com/Cust25708/api/v1/Archive/Sale
+  recorded_at: Thu, 12 Jul 2018 10:29:47 GMT
+recorded_with: VCR 4.0.0
