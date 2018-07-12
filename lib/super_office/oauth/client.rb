@@ -8,6 +8,7 @@ module SuperOffice
       include SuperOffice::Endpoints::Archive::Person
       include SuperOffice::Endpoints::Archive::Sale
       include SuperOffice::Endpoints::List::Task
+      include SuperOffice::ParamsFormatter
       include SuperOffice::Connection
 
       def initialize(token:)
